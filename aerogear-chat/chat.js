@@ -72,6 +72,10 @@ $( document ).ready( function () {
             address: destination,
             callback: onsubscribe
         }]);
+
+        $( '#unsubscribe' ).fadeOut({
+            duration: 'fast'
+        });
     });
 
     $( '#send_form' ).submit( function ( e ) {
